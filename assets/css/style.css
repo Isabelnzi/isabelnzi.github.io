@@ -1,0 +1,29 @@
+h1 {
+  font: bold 2.2em Georgia,serif;
+       text-shadow: 2px 2px 1px goldenrod;
+   letter-spacing: 1px;
+ }
+h2{
+  color:red;
+  text-shadow: 2px 2px 1px goldenrod;
+}
+p{
+  font-style: bold;
+}
+body{
+  background-color: #e9ecef
+}
+.rating a {
+ color: #aaa;
+ text-decoration: none;
+ font-size: 3em;
+ transition: color .4s;
+}
+#banniére{
+  background-image: url(https://st2.depositphotos.com/7341970/10354/v/950/depositphotos_103543398-stock-illustration-web-and-software-developer-banner.jpg);
+  height:160px;
+  width:auto;
+}
+.progress{
+  height: 30px;
+}
