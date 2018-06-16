@@ -20,8 +20,8 @@ body{
  transition: color .4s;
 }
 #banniére{
-  background-image: url(/home/isabeln/Documents/website/cv/isabelnzi.github.io/assets/img/depositphotos_103543398-stock-illustration-web-and-software-developer-banner.jpg);
-  background-repeat:no-repeat;
+  background-image: url(http://www.webbegan.com/wp-content/uploads/2017/08/phpmysql_phpfreelancer.png););
+  background-repeat:repeat;
   height:160px;
 }
 .progress{
