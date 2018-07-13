@@ -11,7 +11,7 @@ p{
   font-style: bold;
 }
 body{
-  background-color:#e9ecef
+  background-color:#e9ecef;
 }
 .rating a {
  color: #aaa;
@@ -20,9 +20,9 @@ body{
  transition: color .4s;
 }
 #banniére{
-  background-image: url(http://www.webbegan.com/wp-content/uploads/2017/08/phpmysql_phpfreelancer.png););
+  background-image: url(http://www.webbegan.com/wp-content/uploads/2017/08/phpmysql_phpfreelancer.png);
   background-repeat:repeat;
-  height:160px;
+  height:140px;
 }
 .progress{
   height: 20px;
