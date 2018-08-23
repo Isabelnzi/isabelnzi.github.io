@@ -1,29 +1,69 @@
-h1 {
-  font: bold 2.2em Georgia,serif;
-       text-shadow: 2px 2px 1px goldenrod;
-   letter-spacing: 1px;
- }
-h2{
-  color:red;
-  text-shadow: 2px 2px 1px goldenrod;
+
+#banniére{
+  width: 100%;
 }
-p{
-  font-style: bold;
+#navbarTogglerDem{
+  font-family: 'Bungee Inline', cursive;
+  font-family: 'Alegreya SC', serif;
+  font-family: 'Bowlby One SC', cursive;
+  color: orange;
+  font-size: 20px;
+}
+#brand{
+  font-family: 'Courgette',cursive;
+  color: black;
+}
+#nav-nav{
+  margin-top: px;
+  padding-top: -15px;
+}
+.btn{
+  margin: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 body{
-  background-color: #e9ecef
-}
-.rating a {
- color: #aaa;
- text-decoration: none;
- font-size: 3em;
- transition: color .4s;
-}
-#banniére{
-  background-image: url(https://st2.depositphotos.com/7341970/10354/v/950/depositphotos_103543398-stock-illustration-web-and-software-developer-banner.jpg);
-  height:160px;
-  width:auto;
+background-image:;
+
 }
 .progress{
-  height: 30px;
+  height: 20px;
+  margin-bottom: 8px;
+  background-color: white;
+}
+h2{
+  font-size: 25px;
+  margin-left: 50px;
+  color: orange;
+  margin-top: 50px;
+}
+h1{
+  font-size: 10px;
+}
+footer{
+  background-image: url(assets/img/earth-1458557__340.jpg);
+  margin-top: 40px;
+  font-family: 'aduma';
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+li{
+  font-size: 16px;
 }

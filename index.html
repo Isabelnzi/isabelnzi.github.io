@@ -5,102 +5,202 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
   <title>Mon cv numérique</title>
+  <!--CDN bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+<!--google font-->
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 </head>
 <body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning" id="nav-nav">
+  <a class="navbar-brand" href="#" id="brand" >Isabel NZINGANI</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <div class="jumbotron jumbotron-fluide" >
-    <div class="container" id="banniére">
-      <h1 class="display-6">Isabel NZINGANI</h1>
+  <div class="collapse nav8ar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#Formations">Formations <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Projet web">Projets en développement</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Projet com">Expériences en communication</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Expériences">Expériences</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Compétences">Compétences</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#loisirs">Centre d'intérets</a>
+      </li>
+      <li class="nav-item" id="contact">
+        <a class="nav-link " href="#Contact">Contact</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      <a class="cv" href="/home/isabeln/Documents/website/cv/cv version5.pdf">CV</a>
+      <a class="icone" href="https://github.com/Isabelnzi"><img src="assets/img/github.png" height="30" width="40"/></a>
+      <a class="icone" href="https://www.linkedin.com/in/isabel-nzingani-995113167/"><img src="assets/img/linkedin.png" height="30" width="30"/></a>
+    </span>
+  </nav>
+  <div class="container-fluid">
+<img id="banniére" src="assets/img/ISAbel Nzingani.png">
+<a href="#quisuis-je" class="btn btn-warning btn-lg " tabindex="-1" role="button" id="quisuis-je" onclick="typeWriter()">Qui suis-je</a>
+<p id="demo"></p>
+</div>
+        <!--debut content-->
+
+
+<div class="col-md-8 ">
+<h2 id="Formations"><img src="assets/img/graduation.png">FORMATIONS</h2>
+  <ul>
+    <li><span style="font-weight:bold">2018:</span>Formation E2N "Développeusede sites et d'application web"(840h).
+                        Préparation Titre professionnel d'Etat"Développeuse logiciel"RNCP 5927 Niveau III Bac+2.
+  <li><span style="font-weight:bold">2004-2007:</span>Niveau BTS communication des entreprises </li>
+  <li><span style="font-weight:bold">2002:</span>ObtentionBAC STT option communication commerciales.</li>
+</ul>
+</div>
+
+<div class="col-md-8 ">
+<h2 id="Projet web"><img src="assets/img/projector.png">PROJETS EN DEVELOPPEMENT</h2>
+<ul>
+<li>Chef de projet:Création d'un site en Bootstrap"Responsive".</li>
+<li>Réalisation d'un site d'E-commerce"ProjetII" en Javascript.</li>
+<li>Réalisation d'un site d'E-commerce "Multi-Game" en AngularJS.</li>
+<li>Réalisation d'un site Wordpress</li>
+</ul>
+</div>
+
+<div class="col-md-8 ">
+<h2 id="Projet com"><img src="assets/img/folder.png">EXPERIENCES EN COMMUNICATION</h2>
+<ul>
+  <li><span style="font-weight:bold">2011:</span> Assistante en communication Monia service</li>
+  <p>Prospection,études de marché,réalisations dépliants et carte de visite.
+    <li><span style="font-weight:bold">2009:</span> Assistante en communication AN Peinture</li>
+    <p>Prospection,Secrétariat.</p>
+    <li><span style="font-weight:bold">2007</span>: Assistante en communication Teasercorp.</li>
+    <p>Prospection,réalisation de document et communiqué de presse</p>
+</ul>
+</div>
+
+<div  class="col-md-8 ">
+  <h2 id="Expériences"><img src="assets/img/settings.png">EXPERIENCES</h2>
+  <ul>
+  <li><span style="font-weight:bold">2008:</span> Hôtesse de Caisse Kiabi</li>
+  <p>Accueil,caisse,mise en rayon.</p>
+  <li><span style="font-weight:bold">2007:</span> Assistante commerciale AETV-BALARD</li>
+  <p>Prospection,Secrétariat</p>
+  </ul>
+</div>
+
+<div class="col-md-8 ">
+  <h2 id="Compétences"><img src="assets/img/skills.png">COMPETENCES</h2>
+<h3>Langues</h3>
+<ul>
+<li>anglais:A1,technique</li>
+<li>espagnol:notions</li>
+<li>portugais:niveau moyen</li>
+</ul>
+
+<h3>Système d'exploitation</h3>
+<ul>
+<li><img src="assets/img/if_windows_386506.png" width="40" height="40" alt="logo windows" title="logo windows" />Windows</li>
+
+<li><img src="assets/img/if_logo_brand_brands_logos_linux_2993682.png" width="40" height="40" alt="logo linux" title="logo linux" />Linux</li>
+</ul>
+<h3>Langages/logiciels</h3>
+<div class="progress">
+<div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Javascript 25%</div>
+</div>
+<div class="progress">
+<div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Jquery 25%</div>
+</div>
+<div class="progress" >
+<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Nano 25%</div>
+</div>
+<div class="progress">
+<div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">HTML 50%</div>
+</div>
+<div class="progress">
+<div class="progress-bar bg-warning " role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">ATOM 50%</div>
+</div>
+<div class="progress">
+<div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">CSS 35%</div>
+</div>
+<div class="progress">
+<div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Github 30%</div>
+</div>
+<div class="progress">
+<div class="progress-bar bg-secondary" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="0">Terminal linux 45%</div>
+</div>
+<div class="progress-bar bg-Dark" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="0">Bootstrap 25%</div>
+</div>
+<div>
+
+  <div class="col-md-8 " id="loisirs">
+  <h2>CENTRE D INTERETS</h2>
+  <span><img src="assets/img/pantone.png">Décoration d'intérieur</span>
+<span><img src="assets/img/sketchbook.png">Dessin</span>
+<span><img src="assets/img/soccer-ball.png">Football</span>
+  </div>
+
+<footer id="Contact">
+<img src="assets/img/id-card.png">
+        <p class="grey-text text-lighten-4"></p>
+           <ul style="font-weight:bold">
+              <li>54 allée de la grimpette 60400 NOYON (50 min de paris)</li>
+                <li><a href="tel:+33758124555">Tél: 07 58 12 45 55</a></li>
+                <li><a href="mail to:isabelnzingani@outlook.com">isabelnzingani@outlook.com</a></li>
+                <li>35 ans PermisB</li>
+                </ul>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text"></h5>
+            <div class="col-md-3">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      </div>
+      </div>
+        <div class="container">
+        © 2018 Copyright Nzingani Isabel
+      </div>
+    </footer>
+      <script>
+      var i = 0;
+var txt = 'Isabel NZINGANI. J’ai 35 ans,je suis une jeune développeuse web curieuse et organisée.Ayant un bon sens du relationnel.';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// quand on clique sur le bouton retour vers le haut
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+      </script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-      <h1>Développeuse Web</h1>
-      <marquee direction="up" scrollamount="2" height="800px">
-      <hr class="my-1">
-      <p style="font-style:bold">Ouverte d'esprit,curieuse et organisée.Je suis une jeune développeuse web qui souhaite mettre mes compétences et mon expérience au service de votre entreprise.</p>
-      <div class="container-Fluide">
-        <div class="row">
-          <div class="col-md-4 border "><h2>FORMATIONS</h2>
-            <ul>
-            <li><span style="font-weight:bold">2018:</span>Préparation au titre professionnelle de Développeuse Web.</li>
-            <li><span style="font-weight:bold">2006-2007:</span>BTS communication des entreprises 2ème année.</li>
-            <li><span style="font-weight:bold">2004-2005:</span>BTS communication des entreprises 1ére année.</li>
-            <li><span style="font-weight:bold">2002:</span>BAC STT option communication commerciales.</li>
-          </ul>
-          </div>
-            <div  class="col-md-4 border "><h2>EXPERIENCES</h2>
-              <ul>
-              <li><span style="font-weight:bold">2011:</span> Assistante en communication Monia service</li>
-              <p>Prospection,études de marché,réalisations dépliants et carte de visite.
-              <li><span style="font-weight:bold">2009:</span> Assistante en communication AN Peinture</li>
-              <p>Prospection,Secrétariat.</p>
-              <li><span style="font-weight:bold">2008:</span> Hôtesse de Caisse Kiabi</li>
-              <p>Accueil,caisse,mise en rayon.</p>
-              <li><span style="font-weight:bold">2007:</span> Assistante commerciale AETV-BALARD</li>
-              <p>Prospection,Secrétariat</p>
-              <li><span style="font-weight:bold">2007</span>: Assistante en communication Teasercorp.</li>
-              <p>Prospection,réalisation de document et communiqué de presse</p>
-              </ul>
-          </div>
-          <div class="col-md-4 border "><h2>COMPETENCES</h2>
-            <h3>Langues</h3>
-        <ul>
-          <li>anglais:notions</li>
-          <li>espagnol:notions</li>
-          <li>portugais:notions</li>
-        </ul>
-        <h3>Système d'exploitation</h3>
-          <img src="assets/img/if_windows_386506.png" width="30" height="30"alt="logo windows" title="logo windows" />
-          <img src="assets/img/if_logo_brand_brands_logos_linux_2993682.png"width="30" height="30" alt="logo linux" title="logo linux" />
-        <h3>Langages/logiciels</h3>
-        <div class="progress">
-        <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Javascript 25%</div>
-      </div>
-        <div class="progress">
-        <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Jquery 25%</div>
-         </div>
-        <div class="progress" >
-          <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Nano 25%</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">HTML 50%</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar bg-warning " role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">ATOM 50%</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">CSS 35%</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Github 30%</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar bg-secondary" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Terminal linux 45%</div>
-        </div>
-        <div class="progress-bar bg-Dark" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Bootstrap 25%</div>
-      </div>
-      <div>
-      <img src="assets/img/contact.jpeg"width="0"height="80"alt="logo contact" title="logo contact">
-            <p class="grey-text text-lighten-4"></p>
-               <ul style="font-weight:bold">
-                  <li>54 allée de la grimpette 60400 NOYON</li>
-                    <li><a href="tel:+33758124555">Tél: 07 58 12 45 55</a></li>
-                    <li><a href="mail to:isabelnzingani@outlook.com">isabelnzingani@outlook.com</a></li>
-                    <li>35 ans PermisB</li>
-                    </ul>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text"></h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="https://github.com/Isabelnzi"></a>
-                  <img src="assets/img/if_github_social_media_online_1005326.png" height="30" width="40" /></li>
-                  <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/isabel-nzingani-995113167"></a><img src="assets/img/if_Social_Media_Socialmedia_network_share_socialnetwork_network-05_227048.png" height="30" width="30"/></li>
-                </ul>
-              </div>
-            <div class="container">
-            © 2018 Copyright Nzingani Isabel
-        </div>
-      </body>
-    </marquee>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"> </script>
+     <script src='assets/js/scripts.js'></script>
+</body>
 </html>
