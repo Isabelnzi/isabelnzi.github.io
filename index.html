@@ -3,16 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width">
   <title>Mon cv numérique</title>
   <!--CDN bootstrap-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/css/mdb.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css" />
 <!--google font-->
 <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 </head>
-<body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning" id="nav-nav">
+<body class="bg-image">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light peach-gradient" id="nav-nav">
   <a class="navbar-brand" href="#" id="brand" >Isabel NZINGANI</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -20,8 +25,8 @@
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#Formations">Formations <span class="sr-only">(current)</span></a>
+      <li class="nav-item ">
+        <a class="nav-link" href="#Formations">Formations</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#Projet web">Projets en développement</a>
@@ -40,134 +45,185 @@
       </li>
       <li class="nav-item" id="contact">
         <a class="nav-link " href="#Contact">Contact</a>
-      </li>s
+      </li>
     </ul>
     <span class="navbar-text">
-      <a class="cv" href="https://isabelnzi.github.io/assets/cv%20version5.pdf">CV</a>
+      <a class="cv" href="https://isabelnzi.github.io/assets/cv%20version5.pdf">CV-PDF</a>
     </span>
       <a class="icone" href="https://github.com/Isabelnzi"><img src="assets/img/github.png" height="30" width="40"/></a>
       <a class="icone" href="https://www.linkedin.com/in/isabel-nzingani-995113167/"><img src="assets/img/linkedin.png" height="30" width="30"/></a>
   </nav>
   <div class="container-fluid">
-<img id="banniére" src="assets/img/ISAbel Nzingani.png">
-<a href="#quisuis-je" class="btn btn-warning btn-lg " tabindex="-1" role="button" id="quisuis-je" onclick="typeWriter()">Qui suis-je</a>
+<img id="banniére" src="assets/img/Sip with Me.png">
+<a href="#quisuis-je" class="btn btn-red lighten-5 btn-lg " tabindex="-1" role="button" id="quisuis-je" onclick="typeWriter()">Qui suis-je</a>
 <p id="demo"></p>
 </div>
-        <!--debut content-->
+<!-- Main layout -->
+<main>
 
 
-<div class="col-md-8 ">
-<h2 id="Formations"><img src="assets/img/graduation.png">FORMATIONS</h2>
-  <ul>
-    <li><span style="font-weight:bold">2018:</span>Formation E2N "Développeusede sites et d'application web"(840h).
-                        Préparation Titre professionnel d'Etat"Développeuse logiciel"RNCP 5927 Niveau III Bac+2.
-  <li><span style="font-weight:bold">2004-2007:</span>Niveau BTS communication des entreprises </li>
-  <li><span style="font-weight:bold">2002:</span>ObtentionBAC STT option communication commerciales.</li>
-</ul>
-</div>
 
-<div class="col-md-8 ">
-<h2 id="Projet web"><img src="assets/img/projector.png">PROJETS EN DEVELOPPEMENT</h2>
-<ul>
-<li>Chef de projet:Création d'un site en Bootstrap"Responsive".</li>
-<li>Réalisation d'un site d'E-commerce"ProjetII" en Javascript.</li>
-<li>Réalisation d'un site d'E-commerce "Multi-Game" en AngularJS.</li>
-<li>Réalisation d'un site Wordpress</li>
-</ul>
-</div>
+  <div class="container">
 
-<div class="col-md-8 ">
-<h2 id="Projet com"><img src="assets/img/folder.png">EXPERIENCES EN COMMUNICATION</h2>
-<ul>
-  <li><span style="font-weight:bold">2011:</span> Assistante en communication Monia service</li>
-  <p>Prospection,études de marché,réalisations dépliants et carte de visite.
-    <li><span style="font-weight:bold">2009:</span> Assistante en communication AN Peinture</li>
-    <p>Prospection,Secrétariat.</p>
-    <li><span style="font-weight:bold">2007</span>: Assistante en communication Teasercorp.</li>
-    <p>Prospection,réalisation de document et communiqué de presse</p>
-</ul>
-</div>
+    <!--Grid row-->
+    <div class="row mb-5 pb-4">
 
-<div  class="col-md-8 ">
-  <h2 id="Expériences"><img src="assets/img/settings.png">EXPERIENCES</h2>
-  <ul>
-  <li><span style="font-weight:bold">2008:</span> Hôtesse de Caisse Kiabi</li>
-  <p>Accueil,caisse,mise en rayon.</p>
-  <li><span style="font-weight:bold">2007:</span> Assistante commerciale AETV-BALARD</li>
-  <p>Prospection,Secrétariat</p>
-  </ul>
-</div>
+      <!--Grid column-->
+      <div class="col-md-12 text-center">
 
-<div class="col-md-8 ">
-  <h2 id="Compétences"><img src="assets/img/skills.png">COMPETENCES</h2>
-<h3>Langues</h3>
-<ul>
-<li>anglais:A1,technique</li>
-<li>espagnol:notions</li>
-<li>portugais:niveau moyen</li>
-</ul>
+        <h2 class="h1 font-weight-bold light-blue-text my-5 py-4"id="Formations"><img src="assets/img/graduation.png">FORMATIONS</h2>
+          <ul>
+            <li><span style="font-weight:bold">2018:</span>Formation E2N "Développeusede sites et d'application web"(840h).
+                                Préparation Titre professionnel d'Etat"Développeuse logiciel"RNCP 5927 Niveau III Bac+2.
+          <li><span style="font-weight:bold">2004-2007:</span>Niveau BTS communication des entreprises </li>
+          <li><span style="font-weight:bold">2002:</span>ObtentionBAC STT option communication commerciales.</li>
+        </ul>
+        </div>
+      </div>
+      <!--Grid column-->
 
-<h3>Système d'exploitation</h3>
-<ul>
-<li><img src="assets/img/if_windows_386506.png" width="40" height="40" alt="logo windows" title="logo windows" />Windows</li>
+    </div>
+    <!--Grid row-->
 
-<li><img src="assets/img/if_logo_brand_brands_logos_linux_2993682.png" width="40" height="40" alt="logo linux" title="logo linux" />Linux</li>
-</ul>
-<h3>Langages/logiciels</h3>
-<div class="progress">
-<div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Javascript 25%</div>
-</div>
-<div class="progress">
-<div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Jquery 25%</div>
-</div>
-<div class="progress" >
-<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Nano 25%</div>
-</div>
-<div class="progress">
-<div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">HTML 50%</div>
-</div>
-<div class="progress">
-<div class="progress-bar bg-warning " role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">ATOM 50%</div>
-</div>
-<div class="progress">
-<div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">CSS 35%</div>
-</div>
-<div class="progress">
-<div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Github 30%</div>
-</div>
-<div class="progress">
-<div class="progress-bar bg-secondary" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="0">Terminal linux 45%</div>
-</div>
-<div class="progress-bar bg-Dark" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="0">Bootstrap 25%</div>
-</div>
-<div>
-
-  <div class="col-md-8 " id="loisirs">
-  <h2>CENTRE D INTERETS</h2>
-  <span><img src="assets/img/pantone.png">Décoration d'intérieur</span>
-<span><img src="assets/img/sketchbook.png">Dessin</span>
-<span><img src="assets/img/soccer-ball.png">Football</span>
   </div>
 
-<footer id="Contact">
-<img src="assets/img/id-card.png">
-        <p class="grey-text text-lighten-4"></p>
-           <ul style="font-weight:bold">
-              <li>54 allée de la grimpette 60400 NOYON (50 min de paris)</li>
-                <li><a href="tel:+33758124555">Tél: 07 58 12 45 55</a></li>
-                <li><a href="mail to:isabelnzingani@outlook.com">isabelnzingani@outlook.com</a></li>
-                <li>35 ans PermisB</li>
-                </ul>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text"></h5>
-            <div class="col-md-3">
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-      </div>
-      </div>
-        <div class="container">
-        © 2018 Copyright Nzingani Isabel
-      </div>
-    </footer>
+  <div class="view jarallax">
+    <img class="jarallax-img" src="" alt="">
+  </div>
+
+</main>
+<!-- Main layout -->
+<!-- Background Image Parallax -->
+<div class="parallax"></div>
+
+<div style="height:1000px;background-image:url('');font-size:36px">
+
+  <div class="col-md-8 ">
+  <h2 class="h1 font-weight-bold light-blue-text my-5 py-4" id="Projet web"><img src="assets/img/projector.png">PROJETS EN DEVELOPPEMENT</h2>
+  <ul>
+  <li>Chef de projet:Création d'un site en Bootstrap"Responsive".</li>
+  <li>Réalisation d'un site d'E-commerce"ProjetII" en Javascript.</li>
+  <li>Réalisation d'un site d'E-commerce "Multi-Game" en AngularJS.</li>
+  <li>Réalisation d'un site Wordpress</li>
+  </ul>
+  </div>
+
+  <div class="col-md-8 ">
+  <h2 class="h1 font-weight-bold light-blue-text my-5 py-4" id="Projet com"><img src="assets/img/folder.png">EXPERIENCES EN COMMUNICATION</h2>
+  <ul>
+    <li><span style="font-weight:bold">2011:</span> Assistante en communication Monia service</li>
+    <p>Prospection,études de marché,réalisations dépliants et carte de visite.
+      <li><span style="font-weight:bold">2009:</span> Assistante en communication AN Peinture</li>
+      <p>Prospection,Secrétariat.</p>
+      <li><span style="font-weight:bold">2007</span>: Assistante en communication Teasercorp.</li>
+      <p>Prospection,réalisation de document et communiqué de presse</p>
+  </ul>
+  </div>
+
+  <div  class="col-md-8 ">
+    <h2 class="h1 font-weight-bold light-blue-text my-5 py-4" id="Expériences"><img src="assets/img/settings.png">EXPERIENCES</h2>
+    <ul>
+    <li><span style="font-weight:bold">2008:</span> Hôtesse de Caisse Kiabi</li>
+    <p>Accueil,caisse,mise en rayon.</p>
+    <li><span style="font-weight:bold">2007:</span> Assistante commerciale AETV-BALARD</li>
+    <p>Prospection,Secrétariat</p>
+    </ul>
+  </div>
+
+
+
+
+
+          <div class="grey-text text-lighten-4">
+          <div class="col-md-8 ">
+            <h2 class="h1 font-weight-bold light-blue-text my-5 py-4" id="Compétences"><img src="assets/img/skills.png">COMPETENCES</h2>
+          <h3>Langues</h3>
+          <ul>
+          <li>anglais:A1,technique</li>
+          <li>espagnol:notions</li>
+          <li>portugais:niveau moyen</li>
+          </ul>
+
+          <h3>Système d'exploitation</h3>
+          <ul>
+          <li><img src="assets/img/if_windows_386506.png" width="40" height="40" alt="logo windows" title="logo windows" />Windows</li>
+
+          <li><img src="assets/img/if_logo_brand_brands_logos_linux_2993682.png" width="40" height="40" alt="logo linux" title="logo linux" />Linux</li>
+          </ul>
+          <h3>Langages/logiciels</h3>
+          <div class="progress">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 55%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Javascript 55%</div>
+          </div>
+          <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 45%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Jquery 45%</div>
+          </div>
+          <div class="progress" >
+          <div class="progress-bar bg-success" role="progressbar" style="width: 55%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Nano 55%</div>
+          </div>
+          <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">HTML 80%</div>
+          </div>
+          <div class="progress">
+          <div class="progress-bar bg-warning " role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">ATOM 70%</div>
+          </div>
+          <div class="progress">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">CSS 85%</div>
+          </div>
+          <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Github 70%</div>
+          </div>
+          <div class="progress">
+          <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="0">Terminal linux 75%</div>
+          </div>
+            <div class="progress">
+          <div class="progress-bar bg-Dark" role="progressbar" style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="0">Bootstrap 65%</div>
+</div>
+          <div class="progress">
+          <div class="progress-bar bg-secondary" role="progressbar" style="width: 55%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="0">PHP 50%</div>
+
+          <div class="col-md-8 " id="loisirs">
+          <h2 class="h1 font-weight-bold light-blue-text my-5 py-4">CENTRE D INTERETS</h2>
+          <span><img src="assets/img/pantone.png">Décoration d'intérieur</span>
+        <span><img src="assets/img/sketchbook.png">Dessin</span>
+        <span><img src="assets/img/soccer-ball.png">Football</span>
+          </div>
+          </div>
+        </div>
+</div>
+          <div class="col-md-8 " id="loisirs">
+          <h2 class="h1 font-weight-bold light-blue-text my-6 py-2" id="loisirs">CENTRE D INTERETS</h2>
+          <span><img src="assets/img/pantone.png">Décoration d'intérieur</span>
+        <span><img src="assets/img/sketchbook.png">Dessin</span>
+        <span><img src="assets/img/soccer-ball.png">Football</span>
+          </div>
+
+        <div class="parallax"></div>
+        <div style="height:200px;background-image:url('');font-size:50px" id="Contact">
+          <img src="assets/img/id-card.png">
+                  <p class="grey-text text-lighten-4"></p>
+                     <ul style="font-weight:bold">
+                        <li>54 allée de la grimpette 60400 NOYON (50 min de paris)</li>
+                          <li><a href="tel:+33758124555">Tél: 07 58 12 45 55</a></li>
+                          <li><a href="mail to:isabelnzingani@outlook.com">isabelnzingani@outlook.com</a></li>
+                          <li>35 ans PermisB</li>
+                          </ul>
+                    <div class="col l4 offset-l2 s12">
+                      <h5 class="white-text"></h5>
+                      <div class="col-md-3">
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                </div>
+                </div>
+        <!-- Footer -->
+<footer class="page-footer font-small peach-gradient">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/bootstrap-tutorial/"> ISABEL NZINGANI</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
       <script>
       var i = 0;
 var txt = 'Isabel NZINGANI. J’ai 35 ans,je suis une jeune développeuse web curieuse et organisée.Ayant un bon sens du relationnel.';
@@ -196,11 +252,20 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+// object-fit polyfill run
+objectFitImages();
+
+/* init Jarallax */
+jarallax(document.querySelectorAll('.jarallax'));
+
+jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+    keepImg: true,
+});
       </script>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"> </script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/js/mdb.min.js"></script>
      <script src='assets/js/scripts.js'></script>
 </body>
 </html>
