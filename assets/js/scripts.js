@@ -4,7 +4,7 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('"Jeune développeuse web curieuse et organisée. Ayant un bon sens du relationnel."')
+typewriter.typeString('"Jeune développeuse web ayant obtenu son titre professionnel curieuse et organisée. Ayant un bon sens du relationnel."')
     .pauseFor(2500)
     .deleteAll()
     .typeString('Strings can be removed')

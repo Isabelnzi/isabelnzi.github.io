@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width">
+<title>Mon cv numérique</title>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/css/mdb.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="stylee.css" />
+</head>
+<body>
+  <div class="container">
+    <section>
+      <div class="image" data-type="background" data-speed="2"></div>
+      <div class="stuff" data-type="content"><h1>Simple Parallax scroll</h1><h2>Reoptimized</h2></div>
+    </section>
+
+    <section>
+      <div class="image" data-type="background" data-speed="7"></div>
+      <div class="stuff" data-type="content"><h2>Made to be fast</h2><p>Lorem Deserunt maiores minima ipsa. Adipisci, corrupti, voluptatibus! Similique quidem necessitatibus provident.</p></div>
+    </section>
+
+    <section>
+      <div class="image" data-type="background" data-speed="6"></div>
+      <div class="stuff" data-type="content">Accusamus at ex amet perferendis atque fuga, ad earum, ipsa perspiciatis, dolore neque, accusantium consectetur quis voluptatibus culpa architecto animi natus facere expedita sed. Voluptatem odit explicabo amet neque aut.</div>
+    </section>
+
+    <section>
+      <div class="image" data-type="background" data-speed="5"></div>
+      <div class="stuff" data-type="content">Accusamus at ex amet perferendis atque fuga, ad earum, ipsa perspiciatis, dolore neque, accusantium consectetur quis voluptatibus culpa architecto animi natus facere expedita sed. Voluptatem odit explicabo amet neque aut.</div>
+    </section>
+
+    <section>
+      <div class="image" data-type="background" data-speed="3"></div>
+      <div class="stuff" data-type="content">Accusamus at ex amet perferendis atque fuga, ad earum, ipsa perspiciatis, dolore neque, accusantium consectetur quis voluptatibus culpa architecto animi natus facere expedita sed. Voluptatem odit explicabo amet neque aut.</div>
+    </section>
+
+    <section>
+      <div class="image" data-type="background" data-speed="3"></div>
+      <div class="stuff" data-type="content">Accusamus at ex amet perferendis atque fuga, ad earum, ipsa perspiciatis, dolore neque, accusantium consectetur quis voluptatibus culpa architecto animi natus facere expedita sed. Voluptatem odit explicabo amet neque aut.</div>
+    </section>
+  </div>
+
+  <div class="at-twitter"><a href="//twitter.com/hendrysadrak" target="_blank">@grischpel</a></div>
+<script>
+// makes the parallax elements
+function parallaxIt() {
+
+  // create variables
+  var $fwindow = $(window);
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  // on window scroll event
+  $fwindow.on('scroll resize', function() {
+    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  });
+
+  // for each of content parallax element
+  $('[data-type="content"]').each(function (index, e) {
+    var $contentObj = $(this);
+    var fgOffset = parseInt($contentObj.offset().top);
+    var yPos;
+    var speed = ($contentObj.data('speed') || 1 );
+
+    $fwindow.on('scroll resize', function (){
+      yPos = fgOffset - scrollTop / speed;
+
+      $contentObj.css('top', yPos);
+    });
+  });
+
+  // for each of background parallax element
+  $('[data-type="background"]').each(function(){
+    var $backgroundObj = $(this);
+    var bgOffset = parseInt($backgroundObj.offset().top);
+    var yPos;
+    var coords;
+    var speed = ($backgroundObj.data('speed') || 0 );
+
+    $fwindow.on('scroll resize', function() {
+      yPos = - ((scrollTop - bgOffset) / speed);
+      coords = '40% '+ yPos + 'px';
+
+      $backgroundObj.css({ backgroundPosition: coords });
+    });
+  });
+
+  // triggers winodw scroll for refresh
+  $fwindow.trigger('scroll');
+};
+
+parallaxIt();
+</script>
+</body>
+</html>
