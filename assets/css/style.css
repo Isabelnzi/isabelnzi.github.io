@@ -32,15 +32,19 @@
 h2{
   font-size: 35px;
   margin-left: 50px;
-  color: orange;
+color:black;
   margin-top: 50px;
-
 }
 h1{
   font-size: 50px;
 }
+section{
+  color: black;
+  margin-top: 10px;
+}
+
 footer{
-  width: 100%;
+  width: 2000px;
   background-image: url(assets/img/earth-1458557__340.jpg);
   margin-top: 50px;
   font-family: 'aduma';
@@ -66,6 +70,7 @@ footer{
 }
 li{
   font-size: 20px;
+  color: black;
 }
 .bg-image{
   background-image: url('');
@@ -132,7 +137,7 @@ html, body {
   justify-content: center;
   text-align: center;
   z-index: 1000;
-  color: orange;
+  color: black;
   margin: 0 auto;
   font-size: 26px;
   position: relative;
