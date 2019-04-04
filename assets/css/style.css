@@ -32,7 +32,6 @@
 h2{
   font-size: 35px;
   margin-left: 50px;
-color:black;
   margin-top: 50px;
 }
 h1{
@@ -168,4 +167,8 @@ a {
 a:hover, a:focus {
   color: inherit;
   text-decoration: underline;
+}
+
+ol{
+  font-size: 25px;
 }
